@@ -53,6 +53,12 @@ tucu-netdiag.exe --speedtest                                 # throughput + buff
 
 `tucu-netdiag.exe --help` lists every flag.
 
+> **Monitoring an ICMP-filtered host?** `--monitor <IP>` is a raw ICMP (ping)
+> watch, so a host that filters ICMP — common on cloud VMs and hardened
+> firewalls — reads as `down` even when it is actually reachable. For those
+> targets use `--diagnose`, which corroborates ICMP with DNS, HTTP, and STUN
+> before calling anything down.
+
 ## Source
 
 This repository hosts **public release binaries only.** The source is maintained
