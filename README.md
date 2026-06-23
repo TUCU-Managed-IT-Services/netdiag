@@ -1,6 +1,6 @@
 # TUCU NetDiag
 
-A signed, standard-user **Windows network diagnostic tool** — a terminal UI that
+A standard-user **Windows network diagnostic tool** — a terminal UI that
 scans the LAN, monitors hosts, and runs a deductive fault localizer that tells you
 *where* a network problem is (this PC, the LAN/switch, the gateway, or the ISP), not
 just that one exists.
