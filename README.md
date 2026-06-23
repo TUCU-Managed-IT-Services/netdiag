@@ -16,8 +16,7 @@ A single self-contained executable (~3 MB). No installer.
 
 ## Verify the signature
 
-The binary is Authenticode-signed by **TUCU Managed IT Services Inc** via Azure
-Trusted Signing. Before running a downloaded executable, confirm the signature in
+The binary is Authenticode-signed by **TUCU Managed IT Services Inc**. Before running a downloaded executable, confirm the signature in
 PowerShell:
 
 ```powershell
